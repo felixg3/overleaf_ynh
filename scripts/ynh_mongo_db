@@ -2,8 +2,8 @@
 
 MONGO_DEBIAN_SERVICENAME="mongodb"
 MONGO_CE_SERVICENAME="mongod"
-MONGO_DEBIAN_DEPENDENCIES="mongodb mongodb-server mongo-tools"
-MONGO_CE_DEPENDENCIES="mongodb-org mongodb-org-server mongodb-org-tools"
+MONGO_DEBIAN_DEPENDENCIES="mongodb-server mongo-tools"
+MONGO_CE_DEPENDENCIES="mongodb-org-server mongodb-org-tools"
 MONGO_DEBIAN_CONFIG="/etc/mongodb.conf"
 MONGO_CE_CONFIG="/etc/mongod.conf"
 MONGO_CE_REPO="deb http://repo.mongodb.org/apt/debian buster/mongodb-org/4.4 main"
